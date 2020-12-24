@@ -1,0 +1,13 @@
+#
+#Thu Dec 24 18:05:17 UTC 2020
+Mail_Credentials=SMTP_EMAIL
+Email_From=IT-SCPIAlertDEV@benjaminmoore.com
+Mail_Port=587
+true=true
+Address=http\://bmcvertexdev\:8001/vertex-ws/services/LookupTaxAreas70
+Mail_host=smtp-mail.outlook.com
+mail_timeout=30000
+Mail_Subject=SCPI ALERT-[${property.P_Tenant_Name}] - Hybris B2C Vertex Address Verification  VERTEX DEV-P2\: [${header.SAP_ApplicationID}] Error with Status Code\: ${property.http.StatusCode}
+ENABLE_HEALTH_CHECK=true
+User=VERTEX_USER
+Email_To=it-scpialertnotification@benjaminmoore.com
